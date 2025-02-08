@@ -1,0 +1,139 @@
+/* External CSS for better UI */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #ff914d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header span {
+    color: #fffde7;
+    font-weight: 900;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background: white;
+    color: #ff914d;
+    border-radius: 10px;
+}
+
+/* Hero Image */
+.banner {
+
+
+    
+    
+    width: 100%;
+    max-height: 400px;
+    
+    align-items: center;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    color: #ff6b6b;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Table */
+table img {
+    height: :100px;
+    width: 100px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+table img:hover {
+    transform: scale(1.2);
+}
+
+/* Contact Form */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ff914d;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #ff6b6b;
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}

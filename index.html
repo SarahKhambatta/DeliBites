@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites | Home</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS -->
+    <style>
+        /* Internal CSS for Table */
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        th {
+            background-color: #ff914d;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍽️ Welcome to <span>Delicious Bites</span> 🍽️</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="https://plus.unsplash.com/premium_photo-1661953124283-76d0a8436b87?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdG98ZW58MHx8MHx8fDA%3D" alt="Restaurant Image" class="banner">
+        <h2>🔥 Experience the Best Flavors in Town! 🔥</h2>
+        <p>At <b>Delicious Bites</b>, we bring you an exquisite dining experience with the freshest ingredients and finest chefs.</p>
+    </section>
+
+    <section id="menu">
+        <h2>🍕 Our Special Menu 🍝</h2>
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td>Margherita Pizza</td>
+                <td>₹399</td>
+                <td><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D" alt="Pizza"></td>
+            </tr>
+            <tr>
+                <td>Pasta Alfredo</td>
+                <td>₹349</td>
+                <td><img src="https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGFzdGF8ZW58MHx8MHx8fDA%3D" alt="Pasta"></td>
+            </tr>
+            <tr>
+                <td>Chocolate Lava Cake</td>
+                <td>₹299</td>
+                <td><img src="https://plus.unsplash.com/premium_photo-1690214491960-d447e38d0bd0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Dessert"></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="about">
+        <h2>✨ About Us ✨</h2>
+        <p>Founded in 2010, Delicious Bites has served thousands of food lovers with its rich and authentic flavors.</p>
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdG8lMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="Restaurant Interior">
+    </section>
+
+    <section id="contact">
+        <h2>📞 Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delicious Bites | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
